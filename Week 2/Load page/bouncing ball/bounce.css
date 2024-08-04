@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #d8e6e7;
+    font-family: Arial, sans-serif;
+}
+
+.loader.bouncing-balls {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+.loader.bouncing-balls div {
+    width: 15px;
+    height: 15px;
+    background-color: #333;
+    border-radius: 80%;
+    animation: bouncing 0.6s infinite alternate;
+}
+
+.loader.bouncing-balls div:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.loader.bouncing-balls div:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes bouncing {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-40px);
+    }
+}

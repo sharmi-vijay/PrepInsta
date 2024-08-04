@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.loader.loading-bar {
+    width: 100px;
+    height: 10px;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.loader.loading-bar div {
+    width: 70%;
+    height: 100%;
+    background-color: #333;
+    animation: loading 1s infinite;
+}
+
+@keyframes loading {
+    from {
+        transform: translateX(-60%);
+    }
+    to {
+        transform: translateX(60%);
+    }
+}

@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* home{
+    background-image: url('home.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+} */
+
+header {
+    background-image: url('home.jpg');
+    background-size: cover;
+    background-position: center;
+    color: rgb(20, 18, 18);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header .header-content {
+    background: rgba(183, 211, 227, 0.711);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#features {
+    background-color: #f9f9f9;
+}
+
+.feature {
+    background-color: rgba(156, 181, 190, 0.8); 
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(23, 22, 21, 0.822); 
+    max-width: 600px; 
+    text-align: center;
+    margin: 20px 0;
+}
+
+#testimonials {
+    background-color: #fff;
+}
+
+.testimonial {
+    margin: 20px 0;
+    border-left: 5px solid #333;
+    padding-left: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    header {
+        height: 50vh;
+    }
+}

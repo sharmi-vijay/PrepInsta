@@ -1,0 +1,202 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  #flex-title{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 120px;
+	margin-bottom:100px;
+  }
+  
+  #flex-about{
+	display: block;
+	margin-top: 420px;
+  }
+  ul {
+	  list-style-type: none;
+	  margin-top:50px;
+	  padding: 0;
+	  /*overflow:hidden;
+	  background-color:white;*/
+	  text-align:right;
+  
+	}
+	li{
+	  text-align:right;
+		display: inline;
+	} 
+	li a{
+	  color:white;
+	 font-family: 'Trebuchet MS';
+	  padding:20px 15px;
+	  text-decoration: none;
+	}
+	li a:hover:not(.active){
+	  background-color:goldenrod;
+	}
+	.active{
+  
+	  background-color:white;
+	}
+  body,html{
+	height:100%;
+	margin:20px;
+	display:block;
+	background-color:black;
+  }
+  
+  #doc1{
+	height: 10em;
+	width:20em;
+	border-style: double;
+	background-color: bisque;
+  }
+  .Title-content{
+	margin-left: 850px;
+	color:white;
+	font-weight: bolder;
+	font-family:'Trebuchet MS';
+	text-align: center;
+  }
+  .qualifi{
+	margin-left: 0px;
+  }
+  #About-details{
+   margin-left: 850px;
+   display: flex;
+   justify-content: space-around;
+	color:chocolate;
+	font-weight: bolder;
+	font-family: cursive;
+	line-height: 2;
+  }
+  
+  #qualification{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+  }
+  
+  .quali-sslc
+  {
+	border-style: solid;
+	  margin-top: 50px;  
+	  margin-left: 30px;
+	  height: 300px; 
+	  width:400px;
+	  box-shadow: 0 4px 8px 0 rgba(232, 238, 241, 0.61);
+	  position:relative;
+	  padding:50px;
+	  background-color:rgba(79, 75, 75, 0.2); 
+  }
+  
+  .quali-sslc:hover{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .year{
+	font-size:xx-large;
+	font-family: 'Trebuchet MS';
+	color: chocolate;
+	line-height: 40px;
+  }
+  
+  .course{
+	font-size: x-large;
+	font-family:'Courier New', Courier, monospace;
+	font-weight: bolder;
+	color:burlywood;
+	line-height: 40px;
+  }
+  .place{
+	font-size:larger;
+	font-weight:400 ;
+	color:rgb(185, 155, 36);
+	font-family:'Times New Roman', Times, serif;
+	line-height: 30px;
+  }
+  
+  .checked{
+	color:orange;
+  }
+  
+  #skills
+  {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/* content: "";
+	display: table;
+	clear: both;
+	display: flex;
+	align-content: center;
+	flex-wrap: nowrap; */
+  
+  }
+  
+  .skill-content{
+	float: left;
+	width: 50%;
+	padding: 5px;
+	height: 150px;
+	margin-left:100px;
+	
+  }
+  
+  .contact-details{
+	border: 1px solid;
+	border-color:floralwhite ;
+	border-left-width: 10px;
+	border-left-color:chocolate;
+	color:white;
+	padding:30px;
+	border-radius:20px;
+	height:200px;
+	width: 230px;
+	font-size: large;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	line-height: 30px;
+	margin-left: 70px;
+	margin-block-end:70px;
+	
+  }
+  
+  .contact-details:hover:not(.active){
+	background-color:goldenrod;
+   
+  }
+  .active{
+	background-color:white;
+  }
+  
+  .img-logo{
+	 margin: auto;
+	width: 0px; 
+	height:0px;  
+	text-align: center;
+	padding-right:100px;
+	border-style:hidden;
+	border-radius: 50px;
+	border-color:black;
+   
+  }
+  
+  #flex-contact{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	flex-flow: row;
+	align-items: center;
+	align-content: center;
+	flex-wrap: wrap;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  

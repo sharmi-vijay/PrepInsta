@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online product store</title>
+    
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #60cfc7;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav ul li {
+            float: left;
+        }
+        
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover, nav ul li a.active {
+            background-color: #cf4545;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+            width: 200px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product-title {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+        .product-description {
+            font-size: 0.9em;
+            color: #555;
+        }
+        .product-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 5px 10px;
+            background-color: #3d67d1;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Online Product Store</h1>
+</header>
+
+<section class="categories">
+    <h2>Categories</h2>
+    <nav>
+        <ul>
+            <li><a href="#">Electronics</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Furnitures</a></li>
+            <li><a href="#">Toys</a></li>
+        </ul>
+    </nav>
+    
+</section>
+
+<section class="products">
+    <div class="product">
+        <img src="C:/Users/HP/Pictures/sharmi/ac.jpg" alt="Product 1">
+        <div class="product-title">AC</div>
+        <div class="product-description">This is an LG Air conditioner with all the facilities.</div>
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.lg.com/in/air-conditioners/split-air-conditioners/&ved=2ahUKEwiDyIHehJKHAxWc1jgGHQlEK6AQFnoECAgQAQ&usg=AOvVaw132Gg1xKt83Ewd2f6aWgKZ" class="product-link">View Details</a>
+    </div>
+    <div class="product">
+        <img src="C:/Users/HP/Pictures/sharmi/chair.jpg" alt="Product 2">
+        <div class="product-title">Wooden Chair</div>
+        <div class="product-description">This is a dining wooden chair.</div>
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.orangetree.in/collections/wooden-chairs&ved=2ahUKEwiM3PqnhZKHAxVh3jgGHTB5BDEQFnoECEMQAQ&usg=AOvVaw0AjfN80Z3W3lOn_pS6Wv9C" class="product-link">View Details</a>
+    </div>
+    <div class="product">
+        <img src="C:/Users/HP/Pictures/sharmi/cycle.jpg" alt="Product 3">
+        <div class="product-title">Kids Cycle</div>
+        <div class="product-description">This is a 3 years old kid cycle.</div>
+        <a href="https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.herocycles.com/bike/kids-bicycles&ved=2ahUKEwit04SHhpKHAxUX3TgGHSWyGQUQFnoECBgQAQ&usg=AOvVaw17A2o359IXttqcBjde0Yeb" class="product-link">View Details</a>
+    </div>
+</section>
+
+</body>
+</html>

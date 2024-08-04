@@ -1,0 +1,57 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #beb1b1;
+    font-family: Arial, sans-serif;
+}
+
+.loader.rotating-squares {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.loader.rotating-squares div {
+    width: 15px;
+    height: 15px;
+    background-color: #0b1814;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -7.5px;
+    margin-left: -7.5px;
+    animation: rotating 1.2s linear infinite;
+}
+
+.loader.rotating-squares div:nth-child(1) {
+    transform: rotate(0deg) translate(20px);
+    animation-delay: -1.1s;
+}
+
+.loader.rotating-squares div:nth-child(2) {
+    transform: rotate(90deg) translate(20px);
+    animation-delay: -0.9s;
+}
+
+.loader.rotating-squares div:nth-child(3) {
+    transform: rotate(180deg) translate(20px);
+    animation-delay: -0.7s;
+}
+
+.loader.rotating-squares div:nth-child(4) {
+    transform: rotate(270deg) translate(20px);
+    animation-delay: -0.5s;
+}
+
+@keyframes rotating {
+    0% {
+        transform: rotate(0deg) translate(20px);
+    }
+    100% {
+        transform: rotate(360deg) translate(20px);
+    }
+}
